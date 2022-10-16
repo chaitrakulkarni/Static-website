@@ -1,0 +1,19 @@
+#box{
+    
+    box-shadow: 5px 10px 18px black;
+}
+
+#box2{
+    box-shadow: 5px 10px 8px brown;   
+  
+}
+
+#box4:hover{
+    box-shadow: 5px 10px 8px black;   
+  
+}
+
+#box5:hover{
+    
+    box-shadow: 5px 10px 18px black;
+}
