@@ -1,0 +1,1 @@
+##Static website designed in html css and javscript
