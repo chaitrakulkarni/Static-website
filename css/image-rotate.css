@@ -5,6 +5,7 @@
 
   .rotate1 {
     animation: rotation 8s infinite linear;
+    border-radius: 50%;
     
   }
   
