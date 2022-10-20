@@ -1,0 +1,42 @@
+#scale-1{
+    /* transform: scale(1.1); */
+
+    animation: scaling 5s infinite linear;
+}
+
+#scale-2{
+    /* transform: scale(1.2); */
+    animation: scaling 5s infinite ;
+}
+
+#scale-3{
+    /* transform: scale(1.2); */
+    animation: scaling 5s infinite ;
+}
+
+#scale-4{
+    /* transform: scale(1.2); */
+    animation: scaling 5s infinite ;
+}
+
+#scale-5{
+    /* transform: scale(1.2); */
+    animation: scaling 5s infinite ;
+}
+
+#scale-6{
+    /* transform: scale(1.2); */
+    animation: scaling 5s infinite ;
+}
+
+@keyframes scaling{
+    from {
+        transform: scale(0.1);
+      }
+      to {
+        transform: scale(1.1);
+      }
+}
+
+
+

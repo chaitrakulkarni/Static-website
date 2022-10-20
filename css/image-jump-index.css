@@ -1,7 +1,8 @@
 @keyframes jump {
-    0%   {transform: scale(1,1);}
-    40%  {transform: scale(.7,1.5);}
-    100% {transform:  scale(1.5,.7);}
+    
+    0% {transform: rotate(90deg)}
+    40% {transform: rotate(0deg)}
+    
   }
   .jump {
     transform-origin: 50% 50%;
