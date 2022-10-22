@@ -29,7 +29,12 @@
 "sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
         crossorigin="anonymous">
         </script>
-
+ <style>
+ li span {
+  position: relative;
+  left: -10px;
+}
+</style>
    
  
 </head>
@@ -108,7 +113,7 @@
 <br><br>
 
  <!-- Carousel --> 
- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -157,16 +162,16 @@
 <center><h2><b> <span style="color: red;">H</span>ere <span style="color: red;">A</span>re <span style="color: red;">T</span>he <span style="color: red;">C</span>ourses <span style="color: red;">Y</span>ou <span style="color: red;">A</span>re <span style="color: red;">L</span>ooking <span style="color: red;">F</span>or...</b></h2></center>
 
 <!-- Div block to show the course directly in rounded form -->
-<div class="container" >
-  <!-- <center><h2><b> <span style="color: red;">H</span>ere <span style="color: red;">A</span>re <span style="color: red;">T</span>he <span style="color: red;">C</span>ourses <span style="color: red;">Y</span>ou <span style="color: red;">A</span>re <span style="color: red;">L</span>ooking <span style="color: red;">F</span>or...</b></h2></center> -->
+<div class="container-fluid" >
+
   <div class="row">
     <div class="col-md-2 col-sm-6">
       <center>
-        <button style="background-color:#B7C4CF; border-radius:50%; width:120px; height: 120px" class="jump">
+        <button style="background-color:#B7C4CF; border-radius:50%; width:120px; height: 120px">
           <a href="./abacus.html" style="text-decoration: none; color:black;">
        <h5> <b> Abacus </b> </h5> 
-        </a>        
-        </button>
+          </a>    
+       </button>
         
       </center>
     </div>
@@ -232,19 +237,27 @@
 <br><br><br><br>
 <!-- About Us Details -->
 
- <div class="container" style="background-color: #FFE3E1;">
+ <div class="container-fluid" style="background-color: #FFE3E1; border-radius: 40px; box-shadow: 5px 10px 18px black;">
        <div class="row">
         <div class="col-md-6 col-sm-6">
           <img src="./images/about-us.png" alt="about us" width="100%" height="200px">
          
         </div>
         <div class="col-md-6 col-sm-6 text-center">
-           
-            <p class="justify-content-center" id="box4">
-              <br>
-              Founded in the year 2016, Sai Intellect Academy has become on of the leading training academy in Bangalore. <span><strong>"Children of today are tomorrow's citizen"</strong></span>thus, it is extremely important to  develop children intellectually.        
-              <center> <a href="aboutUs.html"><button class="btn bg-warning">About Us</button></a> </center> 
+
+          <div class="justify-content-center" id="box4">
+            <h4>"Children of today are tomorrow's citizen"</h4>
+
+            <p>
+              Founded in the year 2016, Sai Intellect Academy has become one of the leading training academy in bangalore.
+              We aim in improving the overall development of the children. Our mission is to reach every nook and corner and make our future citizens a highly effective and intellectual persons.  
             </p>
+           
+          </div>
+           
+                 
+              <center> <a href="aboutUs.html"><button class="btn bg-warning">About Us</button></a> </center> 
+            
           
         </div>
       </div>
@@ -254,8 +267,8 @@
   <br><br><br>
   <!-- Photo Gallery -->
 
-  <div class="container" style="background-color: #F9F9F9;">
-   <h3 class=" bg-warning "><center><b>Photo Gallery</b></center></h3>
+  <div class="container-fluid">
+   <h3 ><center><b>Photo Gallery</b></center></h3>
    <br>
     <div class="row">
       <div class="col-md-4 col-sm-12">
@@ -294,16 +307,16 @@
   </div>
 
   <!-- End of photo gallery -->
-  <br><br><br>
+  <br><br>
   <!-- Contact Us Details -->
 
-  <div class="container" >
+  <div class="container" style="background-color: #B6E388;  border-radius: 40px; box-shadow: 5px 10px 18px black;">
     <div class="row">
      <div class="col-md-6 col-sm-6">  
       <center> <img src="./images/contact-Us.JPG" alt="contact us"  height="200px"> </center> 
      </div>
 
-     <div class="col-md-6 col-sm-6" style="background-color: #FFE3E1;">
+     <div class="col-md-6 col-sm-6">
       <p class="text-center" id="box4">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam reprehenderit aspernatur blanditiis autem in. Rem cumque recusandae dolore ducimus aut quis sint dolor voluptates ipsa labore, itaque, sunt cupiditate perferendis?                
         <center> <a href="contactUs.html"><button class="btn bg-warning">Contact Us</button></a> </center> 
@@ -311,10 +324,10 @@
      </div>
    </div>
 </div>
-
+<br>
   <!-- End of Contact details -->
 
-<br><br><br>
+
 <!-- Footer section -->
 
 <footer>
