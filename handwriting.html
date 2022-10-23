@@ -82,22 +82,24 @@
 
 <br>
 
-<marquee> <h3 class="text-danger">Handwriting is an imprint of self on page. <strong class="text-success">Enroll with us</strong> soon to improve your handwriting ...</h3></marquee>
+<marquee> <h3 class="text-danger" style="font-family:cursive;">Handwriting is an imprint of self on page. <strong class="text-success">Enroll with us</strong> soon to improve your handwriting ...</h3></marquee>
 
 <br><br><br>
 
 <!-- Handwriting -->
-<div class="container">
+<div class="container" style="background-color: #B4CDE6;">
   <div class="row">
      <div class="col-md-6 col-sm-6">
       <img src="./images/Good-Handwriting.jpg" alt="handwriting" width="100%" height="300px">
      </div>
           <div class="col-md-6 col-sm-6">
-           <div id="box5">
-                <center><h3 class="display-3"><b><span style="color: red;">W</span>hy <span style="color: red;">G</span>ood <span style="color: red;">H</span>andwriting?</b></h3></center>
-                   <p>
-                    Handwriting is an essential skill for both children and adults. Good handwriting contributes to reading fluency because it activates visual perception of letters. Handwriting is a predictor of success in other subjects, because good handwriting has a positive impact on grades.
-                   </p>
+           <div>
+                <center><h3 class="display-3" style="font-family:cursive;"><b><span style="color: red;">W</span>hy <span style="color: red;">G</span>ood <span style="color: red;">H</span>andwriting?</b></h3></center>
+               <center>
+                <button onclick="typeWriter()" class="btn btn-outline bg-warning" id="remove"><b>Read on handwriting</b></button> 
+              </center> 
+                <p id="demo"></p>
+               
             </div>
           </div>      
 </div>
@@ -155,7 +157,29 @@
 </div>
 
 <!-- End of course details section -->
- <br><br><br>
+ <br><br>
+ 
+<!-- Why choose academy -->
+<div class="container" style="background-color:pink;">
+  <div class="row">
+        <div class="col-md-6 col-sm-6">
+     <img src="./images/why.jpg" alt="why choose us" width="100%" height="300px">
+    </div>
+
+    <div class="col-md-6 col-sm-6">
+      <center><h6 class="display-6" style="font-family:cursive;"><b>Why Choose Our Academy?</b></h6></center>
+      <hr>
+      <ul>
+        <li style="font-family: Arial, Helvetica, sans-serif;">We combine an ancient teaching tool with modern instructional expertise to stimulate child development and whole brain development while promoting learning and math in particular, as fun and exciting.</li>
+
+        <li style="font-family: Arial, Helvetica, sans-serif;">We provide a quality trained teachers.</li>
+
+        <li style="font-family: Arial, Helvetica, sans-serif;">Our courses are designed for students in the age group of 4-15 years and also job seeker .</li>
+      </ul>
+     </div>
+  </div>
+</div>
+<br>
 
 <footer>
     <div class="container-fluid" style="background-color:rgb(41, 37, 37);">
@@ -189,6 +213,21 @@
            
             document.getElementById("courseDetails1").innerHTML="<b>Who can join this course</b> : Applicable to 1st to 5th standard students can apply.";
         }
+
+        
+var i = 0;
+var txt = 'Handwriting is an essential skill for both children and adults. Good handwriting contributes to reading fluency because it activates visual perception of letters. Handwriting is a predictor of success in other subjects, because good handwriting has a positive impact on grades. Each person has their own unique style of handwriting, whether it is everyday handwriting or their personal signature. ';
+var speed = 50;
+
+function typeWriter() {
+  
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
     </script>
 
 </body>

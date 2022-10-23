@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwriting Course</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="./css/box_shadow.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/arrowforimage.css">
+    <link rel="icon" href="./images/logo.JPG">
+   
+    <style>
+
+      .typewriter p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+    </style>
+    
+  
+    
+    
+</head>
+<body style="background-image: url('./images/body-background.jpg');">
+
+
+<marquee> <h3 class="text-danger">Handwriting is an imprint of self on page. <strong class="text-success">Enroll with us</strong> soon to improve your handwriting ...</h3></marquee>
+
+<br><br><br>
+
+<!-- Handwriting -->
+<div class="container">
+  <div class="row">
+     <div class="col-md-6 col-sm-6">
+      <img src="./images/Good-Handwriting.jpg" alt="handwriting" width="100%" height="300px">
+     </div>
+          <div class="col-md-6 col-sm-6">
+           <div id="box5">
+                <center><h3 class="display-3"><b><span style="color: red;">W</span>hy <span style="color: red;">G</span>ood <span style="color: red;">H</span>andwriting?</b></h3></center>
+                   <p class="typewriter">
+                    Handwriting is an essential skill for both children and adults. Good handwriting contributes to reading fluency because it activates visual perception of letters. Handwriting is a predictor of success in other subjects, because good handwriting has a positive impact on grades.
+                   </p>
+            </div>
+          </div>      
+</div>
+</div>
+
+
+</body>
+</html>
